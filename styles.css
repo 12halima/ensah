@@ -1,0 +1,125 @@
+body{
+	background-color:#003a6a ;
+}
+.acceuil{
+	color: #fecd0b;
+}
+.menu{
+	color: #8ab5d6;
+}
+.nav-links li{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 140px;
+	height: 60px;
+	display: block;
+	background-color: #00569d;
+	float:left;
+	text-align:center;
+	margin-right: 0px;
+  	border-right: 1px solid;
+    border-right-color: #8ab5d6;
+  	position: relative;
+	line-height: 50px;
+}
+.espace li{
+	border-right:none;
+}
+.icons li{
+	border-right:none;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+	color: white;
+}
+.icons li:hover{
+	color:#fecd0b ;
+}
+.univ {
+	color: white;
+	font-family: gothamThin;
+ 	letter-spacing: 10px;
+  	text-transform: uppercase;
+  	font-size: 1.7em;
+}
+.uae {
+	color: white;
+  font-family: gothamLight;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font-size: 1.28em;
+}
+
+.title{
+	color: #8ab5d6;
+	position: relative;
+	top: -60px;
+	font-family: gothamLight;
+  	letter-spacing: -0.1px;
+  	font-size: 1.2em;
+  	
+}
+.menu:hover{
+	background-color: white;
+
+}
+
+.links-right li{
+   
+	float: right;
+    margin-right: 10px;
+	position: relative;
+	top:-150px;
+	color: #8ab5d6;
+	
+}
+
+.links-right li:hover{
+	 
+	color: white;
+}
+.logo {
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+
+}
+.logo img{
+	width: 120px;
+	height: auto;
+	vertical-align: middle;
+	position: relative;
+	top: 40px;
+}
+
+.search-form {
+    float: right;
+    margin-right: -20px;
+	position: relative;
+    top: -220px;
+	
+}
+
+.search-form input[type="text"] {
+   
+    background-color: #004074;
+	border-color: #00569d;
+	min-width: 240px;
+  	box-shadow: none;
+  	border: 1px solid;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+  	height: 14px;
+  	padding: 9px;
+}
+.links-right{
+list-style: none;
+  display: inline;}
+.nav-links li a:hover {
+   color: white;
+}
